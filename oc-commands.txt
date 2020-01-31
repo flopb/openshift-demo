@@ -1,0 +1,6 @@
+Login: Profile-Link -> Copy Login Command
+oc project shared
+
+oc create -f ./persistant-storage-example.yml
+oc replace -f ./persistant-storage-example.yml
+oc delete -f ./persistant-storage-example.yml
