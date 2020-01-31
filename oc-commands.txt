@@ -4,3 +4,7 @@ oc project shared
 oc create -f ./persistant-storage-example.yml
 oc replace -f ./persistant-storage-example.yml
 oc delete -f ./persistant-storage-example.yml
+
+
+oc new-app https://github.com/flopb/applesandrobots.git
+oc delete all -l app=applesandrobots
